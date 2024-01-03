@@ -10,8 +10,11 @@ module.exports = {
           '@components': './src/components',
           '@modules': './src/modules',
           '@views': './src/views',
+          '@utils': './src/utils',
+          '@assets': './src/assets',
         },
       },
     ],
+    'react-native-reanimated/plugin',
   ]
 };

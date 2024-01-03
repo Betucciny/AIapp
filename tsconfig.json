@@ -3,9 +3,11 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
+      "@assets/*": ["assets/*"],
       "@components": ["components/*"],
       "@hooks/*": ["hooks/*"],
-      "@views/*": ["views/*"]
+      "@views/*": ["views/*"],
+      "@utils/*": ["utils/*"],
     }
   }
  }
