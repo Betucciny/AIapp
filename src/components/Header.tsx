@@ -14,18 +14,18 @@ function Header() {
         titleText: {
             color: theme.colors.background,
             textAlign: "center",
-            fontSize: 30,
+            fontSize: 20,
             fontWeight: "bold"
         },
         subText: {
             color: theme.colors.background,
-            fontSize: 20,
+            fontSize: 15,
         },
         container: {
             backgroundColor: theme.colors.primary,
             borderRadius: 20,
             margin: 10,
-            padding: 20,
+            padding: 10,
             flexDirection: "row",
             justifyContent: "space-evenly",
             alignItems: "center",
@@ -36,8 +36,8 @@ function Header() {
             alignItems: "center"
         },
         logo: {
-            width: 80,
-            height: 80,
+            width: 60,
+            height: 60,
             borderRadius: 20,
         },
 
